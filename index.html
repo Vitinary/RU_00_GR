@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet" ></script>
+<link href="css/style.css" rel="stylesheet" ></script>
+<script src="js/quizer.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-base.min.js"></script>
+</head>
+<body onload='load()'>
+
+<button id="learn" type="button" class="btn btn-success btn-lg btn-block" disabled='disabled' onclick="learn()">Угадай исполнителя!</button>
+
+<div id="container">	
+
+	<div id='left_side' class="side col-sm-2">
+		<span class='single'>
+			<img id="current_pack" src="img/package/1.png" width="150" height="100" style="display:none"/>
+			<h2 class='score' style="display:none">Счёт: <span id='score' class='green'>0</span></h2>
+			<h2>Песня: <span id='song_count'>0</span> / <span id='total'>?</span></h2>
+			<h2 id='sec_h2' onclick="time_toggle()" class='pointer onhover'>Секунды: <span id='sec' class='blue pointer onhover'>0</span></h2>
+			<h2 id='min_h2' onclick="time_toggle()" class='pointer onhover' style="display:none">Минуты: <span id='min' class='green pointer onhover'>0</span></h2>
+			<!-- <img class='blink pointer' src="img/navi/like.jpg" width="100" height="100" style="display:none" onclick="like()"/> -->
+			<!-- <img class='blink pointer' src="img/navi/dislike.jpg" width="100" height="100" style="display:none" onclick="dislike()"/> -->
+			<img id='sec_15' class='pointer onhover' src="img/navi/15_sec.png" width="100" height="100" onclick="sec_15()" style="display:none"/>
+			<img id='pause' class='pointer onhover' src="img/navi/pause.png" width="100" height="100" onclick="song_pause()" style="display:none"/>
+			<img id='back' class='pointer onhover' src="img/navi/back.png" width="100" height="100" onclick="back()" style="display:none"/>
+			<img id='map' class='pointer onhover' src="img/navi/map.png" width="100" height="100" onclick="map_songs()"/>
+		</span>
+		<div id="eval">
+			<marquee id="eval_txt" class="font text-center align-middle" direction="up" scrolldelay="1" scrollamount="15" behavior="slide">
+				<font id="road_text"></font>
+			</marquee>
+		</div>
+	</div>
+	
+	<div class="col-sm-8">
+		<div id="mirror">
+			<marquee id="mirror_txt" class="font text-center align-middle" direction="up" scrolldelay="1" scrollamount="15" behavior="slide">
+				<font id="road_text"></font>
+			</marquee>
+		</div>
+		<div id='package_content' style="display:none"></div>
+		<div id='mapping_content'></div>
+		<img id="artist" class='icon' src="" width="550" height="550" style="display:none" />
+		
+		<img id="package_1" class="pointer package onhover" src="img/package/1.png" width="450" height="300" onclick="package_num(1)" style="display:none"/>
+		<img id="package_2" class="pointer package onhover" src="img/package/2.png" width="450" height="300" onclick="package_num(2)" style="display:none"/>
+		<img id="package_3" class="pointer package onhover" src="img/package/3.png" width="450" height="300" onclick="package_num(3)" style="display:none"/>
+		<img id="package_4" class="pointer package onhover" src="img/package/4.png" width="450" height="300" onclick="package_num(4)" style="display:none"/>
+		<img id="package_5" class="pointer package onhover" src="img/package/5.png" width="450" height="300" onclick="package_num(5)" style="display:none"/>
+		<img id="package_6" class="pointer package onhover" src="img/package/6.png" width="450" height="300" onclick="package_num(6)" style="display:none"/>
+		<img id="package_7" class="pointer package onhover" src="img/package/7.png" width="450" height="300" onclick="package_num(7)" style="display:none"/>
+		<img id="package_8" class="pointer package onhover" src="img/package/8.png" width="450" height="300" onclick="package_num(8)" style="display:none"/>
+		<img id="package_9" class="pointer package onhover" src="img/package/9.png" width="450" height="300" onclick="package_num(9)" style="display:none"/>
+		<img id="package_10" class="pointer package onhover" src="img/package/10.png" width="450" height="300" onclick="package_num(10)" style="display:none"/>
+		
+		<div id="game">	
+			<h2><button style="display:none" class="game_button answer" disabled="disabled" onclick="choose(1)" id='option_1'></button>
+			<button style="display:none" class="rightButton game_button answer" disabled="disabled" onclick="choose(2)" id='option_2'></button></h2>
+			<h2><button style="display:none" class="game_button answer" disabled="disabled" onclick="choose(3)" id='option_3'></button>
+			<button style="display:none" class="rightButton game_button answer" disabled="disabled" onclick="choose(4)" id='option_4'></button></h2>
+			
+			<h2><input style="display:none" type="text" class="form-control game_button without_answers" disabled="disabled" id="answer_input" placeholder="Напишите исполнителя"></h2>
+			<button style="display:none" type="button" class="btn btn-primary game_button without_answers" disabled="disabled" onclick="choose()">Ответить</button>			
+		</div>
+	</div>
+	
+	<div id='right_side' class="col-sm-2" title='Подсказка'>
+		<span class='single'>
+			<h3>Нужно подучить: <span id='skill' class='red'></span></h3>
+			<h3>Угадано: <span id='rate' class='green'></span></h3>
+		</span>
+		<span class='double' style="display:none">
+			<h2><span class='p1 green'></span>, подучить: <span id='p1_skill' class='red'></span></h2>
+			<h2><span class='p2 green'></span>, подучить: <span id='p2_skill' class='red'></span></h2>
+		</span>
+	</div>
+	
+</div>
+	
+</body>
+</html>
