@@ -342,38 +342,852 @@ function load(){
 
 // EN songs
 
+const en_2000_gr_icon = [
+	'pop_medium',
+	'pop_hard',
+	'womens_vocals',
+	'rock_hard',
+	'rock_2',
+	'rock_1'
+];
 
+const EN_2000_GR_PACK_1 = 6;
+const EN_2000_GR_PACK_2 = 5;
+const EN_2000_GR_PACK_3 = 4;
+const EN_2000_GR_PACK_4 = 3;
+const EN_2000_GR_PACK_5 = 1;
+const EN_2000_GR_PACK_6 = 2;
+
+let en_2000_gr = [
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Green Day',
+			song : 'American Idiot'
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Green Day',
+			song : 'The Saints Are Coming (ft U2)'
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Green Day',
+			song : '21 Guns'
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Offspring',
+			song : "Want You Bad"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Offspring',
+			song : "Hit That"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Offspring',
+			song : "Kristy, Are You Doing Okay?"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Sum 41',
+			song : "Fat Lip"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Sum 41',
+			song : "Pieces"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Sum 41',
+			song : "In Too Deep"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Blink 182',
+			song : "I Miss You"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Blink 182',
+			song : "Always"
+		},
+		{
+			pack : EN_2000_GR_PACK_1,
+			group : 'Blink 182',
+			song : "Stay Together For The Kids"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : "Linkin Park",
+			song : 'In the end'
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Killers',
+			song : 'Mr. Brightside'
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Linkin Park',
+			song : 'Breaking The Habit'
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Linkin Park',
+			song : "Bleed It Out"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Red Hot Chili Peppers',
+			song : 'By the way'
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Red Hot Chili Peppers',
+			song : 'The Zephyr Song'
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Red Hot Chili Peppers',
+			song : 'Tell Me Baby'
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'U2',
+			song : "Elevation"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'U2',
+			song : "Electrical Storm"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'U2',
+			song : "City Of Blinding Lights"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Nickelback',
+			song : "Rockstar"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Killers',
+			song : "Somebody Told Me"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Killers',
+			song : "When You Were Young"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Nickelback',
+			song : "Photograph"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Nickelback',
+			song : "If Today Was Your Last Day"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Limp Bizkit',
+			song : "My Generation"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Limp Bizkit',
+			song : "Rollin' (Air Raid Vehicle)"
+		},
+		{
+			pack : EN_2000_GR_PACK_2,
+			group : 'Limp Bizkit',
+			song : "My Way"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Papa Roach',
+			song : 'Last Resort'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Bon Jovi',
+			song : "It's My Life"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Drowning Pool",
+			song : 'Bodies'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "System of a Down",
+			song : 'Chop Suey!'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Evanescence",
+			song : 'Bring Me To Life'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "White Stripes",
+			song : 'Seven Nation Army'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Hoobastank',
+			song : 'The Reason'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Three Days Grace',
+			song : 'I Hate Everything About You'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Skillet',
+			song : "Comatose"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Skillet',
+			song : "Hero"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Skillet',
+			song : "Monster"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : '3 Doors Down',
+			song : "Train"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : '3 Doors Down',
+			song : "Kryptonite"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : '3 Doors Down',
+			song : "Here Without You"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Garbage',
+			song : "Androgyny"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Garbage',
+			song : "Run Baby Run"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Garbage',
+			song : "Cherry Lips"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Evanescence",
+			song : 'My Immortal'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "My Chemical Romance",
+			song : 'Welcome to the Black Parade'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Kaiser Chiefs",
+			song : 'Ruby'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Paramore",
+			song : 'Emergency'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Kasabian",
+			song : 'Fire'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Kasabian",
+			song : 'Club Foot'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Kasabian",
+			song : 'L.S.F.'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Foo Fighters",
+			song : 'No Way Back'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Metallica",
+			song : 'The Day That Never Comes'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Destiny's Child",
+			song : 'Say My Name'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'OutKast',
+			song : 'Ms. Jackson'
+		},		
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Coldplay",
+			song : 'The Scientist'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Coldplay',
+			song : 'Clocks'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'OutKast',
+			song : 'Hey Ya!'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Maroon 5',
+			song : 'This Love'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Maroon 5',
+			song : 'She Will Be Loved'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Pussycat Dolls',
+			song : "Don't Cha"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Pussycat Dolls",
+			song : 'Buttons (ft Snoop Dogg)'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "OneRepublic",
+			song : "Apologize (ft Timbaland)"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Coldplay",
+			song : "Viva La Vida"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Gorillaz",
+			song : 'Clint Eastwood'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Gorillaz",
+			song : 'Dare'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Morandi",
+			song : 'Falling asleep'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Morandi",
+			song : 'Save Me'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Morandi",
+			song : 'Colors'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "OneRepublic",
+			song : "Stop And Stare"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "OneRepublic",
+			song : "All The Right Moves"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Muse",
+			song : "Uprising"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Muse",
+			song : "Starlight"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Muse",
+			song : "Undisclosed Desires"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Cure",
+			song : "Cut Here"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Cure",
+			song : "The Only One"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'OutKast',
+			song : 'The Way You Move (ft Sleep Brown)'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Black Eyed Peas",
+			song : "I Gotta Feeling"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Black Eyed Peas",
+			song : "Don't Phunk With My Heart"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Black Eyed Peas",
+			song : "Meet Me Half Way"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Destiny's Child",
+			song : 'Independent Women, Pt. I'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Destiny's Child",
+			song : 'Survivor'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Pussycat Dolls',
+			song : "Hush Hush"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Maroon 5',
+			song : 'Makes Me Wonder'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Lady Antebellum',
+			song : 'Need You Now'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Owl City',
+			song : 'Fireflies'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Cascada",
+			song : 'Everytime We Touch'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Panic! At The Disco",
+			song : 'I Write Sins Not Tragedies'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "MGMT",
+			song : 'Kids'
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Backstreet Boys',
+			song : "Straight through my heart"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Hi Tack",
+			song : "Say Say Say"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Global Deejays",
+			song : "The Sound Of San Francisco"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Benassi Bros",
+			song : "Hit My Heart"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Narcotic Thrust",
+			song : "I Like It"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Reamonn",
+			song : "Tonight"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Travis",
+			song : "Sing"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Blue',
+			song : 'Guilty'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Morcheeba',
+			song : 'Otherwise'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Morcheeba',
+			song : 'World Looking In'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Westlife',
+			song : 'Mandy'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'ATC',
+			song : 'Around the World'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "NSYNC",
+			song : 'Bye Bye Bye'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Simply Red',
+			song : 'Sunrise'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'ATC',
+			song : "I'm in Heaven"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Snow Patrol',
+			song : 'Chasing Cars'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Baha Men',
+			song : 'Who Let The Dogs Out'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Madcon',
+			song : "Beggin'"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'No Angels',
+			song : "Still In Love With You"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Brainstorm',
+			song : "Maybe"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Five',
+			song : "Rock the Party"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Florence + The Machine',
+			song : "Rabbit Heart (Raise It Up)"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Florence + The Machine',
+			song : "Cosmic Love"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Beastie Boys',
+			song : "An Open Letter To NYC"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Daft Punk',
+			song : "One More Time"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Fort Minor',
+			song : "Believe Me"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Chemical Brothers',
+			song : "Galvanize"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Hurts',
+			song : "Wonderful Life"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Hurts',
+			song : "Stay"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Basic Element',
+			song : "To You"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Mondotek',
+			song : "Alive"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Aly & AJ',
+			song : "Potential Breakup Song"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Lighthouse Family',
+			song : "Run"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Backstreet Boys',
+			song : "Incomplete"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : 'Backstreet Boys',
+			song : "Inconsolable"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Bomfunk MCs",
+			song : "Super Electric"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Bomfunk MCs",
+			song : "Hypnotic"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Bomfunk MCs",
+			song : "Live Your Life"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "RIO",
+			song : "Shine On"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "RIO",
+			song : "When the Sun Comes Down"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "RIO",
+			song : "After the Love"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Fall Out Boy",
+			song : "Dance, Dance"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Fall Out Boy",
+			song : "This Ain’t a Scene, It’s an Arms Race"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Fall Out Boy",
+			song : "Thanks for the Memories"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Tokio Hotel",
+			song : "By Your Side"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Tokio Hotel",
+			song : "1000 Oceans"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Tokio Hotel",
+			song : "Darkside of the Sun"
+		},
+		{
+			pack : EN_2000_GR_PACK_5,
+			group : "Gorillaz",
+			song : "Dirty Harry"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Jakarta",
+			song : "One Desire"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Sylver",
+			song : "Forgiven"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Sylver",
+			song : "Turn The Tide"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Guns N Roses",
+			song : "Chinese Democracy"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : "Semisonic",
+			song : "Chemistry"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "INXS",
+			song : "Afterglow"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "INXS",
+			song : "Original Sin"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Faithless",
+			song : "We Come 1"
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : "Faithless",
+			song : "One Step Too Far (ft Dido)"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Da Buzz",
+			song : "Dangerous"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Da Buzz",
+			song : "Wonder Where You Are"
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : "Da Buzz",
+			song : "Let Me Love You Tonight"
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Papa Roach',
+			song : 'Scars'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Papa Roach',
+			song : 'Getting Away with Murder'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'Klubbheads',
+			song : 'Hiphopping'
+		},
+		{
+			pack : EN_2000_GR_PACK_6,
+			group : 'OK Go',
+			song : 'Here It Goes Again'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Incubus',
+			song : 'Drive'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Benefit',
+			song : "Sex Sells"
+		}
+];
+
+let en_2000_gr_1 =	en_2000_gr.filter(item => item.pack == 1);
+let en_2000_gr_2 =	en_2000_gr.filter(item => item.pack == 2);
+let en_2000_gr_3 =	en_2000_gr.filter(item => item.pack == 3);
+let en_2000_gr_4 =	en_2000_gr.filter(item => item.pack == 4);
+let en_2000_gr_5 =	en_2000_gr.filter(item => item.pack == 5);
+let en_2000_gr_6 =	en_2000_gr.filter(item => item.pack == 6);
 
 let music = [
 	{
-		arr: ru_2000_gr,
-		lang: 'ru',
+		arr: en_2000_gr,
+		lang: 'en',
 		year: '2000',
 		type: 'gr',
 		packs: [
 				{
-					arr: ru_2000_gr_2,
-					name: 'RU 2000s Groups: Easy',
+					arr: en_2000_gr_1,
+					name: 'EN 2000s Groups: Pop Medium',
 				},
 				{
-					arr: ru_2000_gr_3,
-					name: 'RU 2000s Groups: Medium',
+					arr: en_2000_gr_2,
+					name: 'EN 2000s Groups: Pop Hard',
 				},
 				{
-					arr: ru_2000_gr_4,
-					name: 'RU 2000s Groups: Pop Women',
+					arr: en_2000_gr_3,
+					name: "EN 2000s Groups: Women's Vocals",
 				},
 				{
-					arr: ru_2000_gr_5,
-					name: 'RU 2000s Groups: Pop Women Easy',
+					arr: en_2000_gr_4,
+					name: "EN 2000s Groups: Rock Hard",
 				},
 				{
-					arr: ru_2000_gr_6,
-					name: 'RU 2000s Groups: Pop Women Medium',
+					arr: en_2000_gr_5,
+					name: "EN 2000s Groups: Rock#2",
 				},
 				{
-					arr: ru_2000_gr_1,
-					name: 'RU 2000s Groups: Rock',
+					arr: en_2000_gr_6,
+					name: 'EN 2000s Groups: Rock#1',
 				}
 			]
 	}
@@ -699,7 +1513,7 @@ let generateAudioPath;
 let generateImgPath;
 
 function setup(){
-	lang = 'ru';
+	lang = 'en';
 	year = '2000';
 	artist_type = 'gr';
 	back = back_to_packages;
@@ -707,7 +1521,7 @@ function setup(){
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = ru_2000_gr_icon;
+	package_names = en_2000_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
