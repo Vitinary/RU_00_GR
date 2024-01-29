@@ -875,8 +875,7 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Кукрыниксы',
 		song : "По раскрашенной душе",
-		year : 2002,
-		ignore : true
+		year : 2002
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1277,47 +1276,56 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Чай вдвоем',
-		song : "Желанная"
+		song : "Желанная",
+		year : 2003
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Турбомода',
-		song : 'Каникулы'
+		song : 'Каникулы',
+		year : 2007
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Ассорти',
-		song : 'Красивая любовь'
+		song : 'Красивая любовь',
+		year : 2009
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Ассорти',
-		song : 'Зажги моё тело'
+		song : 'Зажги моё тело',
+		year : 2009
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Турбомода',
-		song : 'Хитрое солнышко'
+		song : 'Хитрое солнышко',
+		year : 2009
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Любовные Истории',
-		song : 'Путь домой'
+		song : 'Путь домой',
+		year : 2003
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Рок-Острова',
-		song : "Не любить невозможно"
+		song : "Не любить невозможно",
+		year : 2008
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Рефлекс',
-		song : "Танцы"
+		song : "Танцы",
+		year : 2005
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Катя Чехова',
-		song : "Я — робот"
+		song : "Я — робот",
+		year : 2005
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -1328,7 +1336,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "A’Studio",
-		song : "Бегу к тебе"
+		song : "Бегу к тебе",
+		year : 2007
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1383,6 +1392,36 @@ let ru_2000_gr = [
 		group : 'Слот',
 		song : "Одни",
 		year : 2003
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Кукрыниксы',
+		song : "Творец",
+		year : 2002
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Кукрыниксы',
+		song : "Тайна",
+		year : 2002
+	},
+	{
+		pack : RU_2000_GR_PACK_7,
+		group : 'Jane Air',
+		song : "Junk",
+		year : 2004
+	},
+	{
+		pack : RU_2000_GR_PACK_7,
+		group : 'Jane Air',
+		song : "Вулканы",
+		year : 2004
+	},
+	{
+		pack : RU_2000_GR_PACK_7,
+		group : 'Jane Air',
+		song : "Пуля",
+		year : 2002
 	}
 ];
 
