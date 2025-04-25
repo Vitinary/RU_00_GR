@@ -1423,6 +1423,16 @@ let ru_2000_gr = [
 		group : 'Jane Air',
 		song : "Пуля",
 		year : 2002
+	},
+	{
+		pack : RU_2000_GR_PACK_6,
+		group : 'Планка',
+		song : "На грани болевого порога (2002)"
+	},
+	{
+		pack : RU_2000_GR_PACK_6,
+		group : 'Планка',
+		song : "Забыла, не помню (2002)"
 	}
 ];
 
