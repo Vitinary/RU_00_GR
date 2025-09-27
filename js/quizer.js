@@ -350,7 +350,8 @@ const ru_2000_gr_icon = [
 	'ru_pop_f_easy',
 	'ru_pop_f_medium',
 	'ru_rock',
-	'ru_rock_2'
+	'ru_rock_2',
+	'ru_rap'
 ];
 
 const RU_2000_GR_PACK_1 = 6;
@@ -360,6 +361,7 @@ const RU_2000_GR_PACK_3 = 3;
 const RU_2000_GR_PACK_6 = 4;
 const RU_2000_GR_PACK_4 = 5;
 const RU_2000_GR_PACK_7 = 7;
+const RU_2000_GR_PACK_8 = 8;
 
 
 let ru_2000_gr = [
@@ -409,9 +411,9 @@ let ru_2000_gr = [
 		song : "А ты все ждешь"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_8,
 		group : 'Многоточие',
-		song : "Щемит в душе тоска"
+		song : "Щемит в душе тоска (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -441,7 +443,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Градусы',
-		song : "Режиссер"
+		song : "Режиссер (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -549,9 +551,9 @@ let ru_2000_gr = [
 		song : "Целуешь меня"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_8,
 		group : "Каста",
-		song : "Ревность"
+		song : "Ревность (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -571,7 +573,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Блестящие',
-		song : "А я всё летала"
+		song : "А я всё летала",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1158,9 +1161,9 @@ let ru_2000_gr = [
 		song : "Первый раз"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_8,
 		group : 'Каста',
-		song : "Горячее время"
+		song : "Горячее время (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -1329,10 +1332,9 @@ let ru_2000_gr = [
 		year : 2005
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_8,
 		group : "Триада",
-		song : "Дежавю",
-		year : 2005
+		song : "Дежавю (2005)"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
@@ -1538,6 +1540,51 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_4,
 		group : "Пара Нормальных",
 		song : "По улицам Москвы"
+	},
+	{
+		pack : RU_2000_GR_PACK_3,
+		group : 'Блестящие',
+		song : "Агент 007"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : "Триада",
+		song : "Нежный омут (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : "Триада",
+		song : "Белый танец (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : "Каста",
+		song : "Вокруг шум (2008)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : 'Многоточие',
+		song : "В жизни так бывает (2001)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : 'Многоточие',
+		song : "Жизнь и свобода (2001)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : 'Centr',
+		song : "Легко ли быть молодым (2008)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : 'Centr',
+		song : "Город дорог (ft Баста)(2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : 'Centr',
+		song : "Качели (2007)"
 	}
 ];
 
@@ -1548,6 +1595,7 @@ let ru_2000_gr_4 =	ru_2000_gr.filter(item => item.pack == 3);
 let ru_2000_gr_5 =	ru_2000_gr.filter(item => item.pack == 4);
 let ru_2000_gr_6 =	ru_2000_gr.filter(item => item.pack == 5);
 let ru_2000_gr_7 =	ru_2000_gr.filter(item => item.pack == 7);
+let ru_2000_gr_8 =	ru_2000_gr.filter(item => item.pack == 8);
 
 let music = [
 	{
@@ -1583,6 +1631,10 @@ let music = [
 				{
 					arr: ru_2000_gr_7,
 					name: 'RU 2000s Groups: Hard Rock',
+				},
+				{
+					arr: ru_2000_gr_8,
+					name: 'RU 2000s Groups: Rap',
 				}
 			]
 	}
