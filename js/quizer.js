@@ -351,7 +351,7 @@ const ru_2000_gr_icon = [
 	'ru_pop_f_medium',
 	'ru_rock',
 	'ru_rock_2',
-	'ru_rap'
+	'rap'
 ];
 
 const RU_2000_GR_PACK_1 = 6;
