@@ -368,47 +368,48 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Hi-Fi',
-		song : "А мы любили"
+		song : "А мы любили (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Hi-Fi',
-		song : "Седьмой лепесток"
+		song : "Седьмой лепесток (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Отпетые мошенники',
-		song : "Граница (ft Леонид Агутин)"
+		song : "Граница (ft Леонид Агутин) (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискотека Авария',
-		song : "Малинки (ft Жанна Фриске)"
+		song : "Малинки (ft Жанна Фриске) (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Бумбокс',
-		song : "Вахтерам"
+		song : "Вахтерам (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Иванушки International',
-		song : "Реви"
+		song : "Реви (2000)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Иванушки International',
-		song : "Золотые облака"
+		song : "Золотые облака (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Иванушки International',
-		song : "Тополиный пух"
+		song : "Тополиный пух (1998)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Чай вдвоем',
-		song : "А ты все ждешь"
+		song : "А ты все ждешь (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -418,27 +419,28 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Quest Pistols',
-		song : "Белая стрекоза любви"
+		song : "Белая стрекоза любви (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Корни',
-		song : "Вика"
+		song : "Вика (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Корни',
-		song : "Ты узнаешь её"
+		song : "Ты узнаешь её (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Дыши',
-		song : "Взгляни на небо"
+		song : "Взгляни на небо (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Сценакардия',
-		song : "Времена года"
+		song : "Времена года (2011)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -448,97 +450,97 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Корни',
-		song : "25 этаж"
+		song : "25 этаж (2005)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Hi-Fi',
-		song : "Глупые люди"
+		song : "Глупые люди (2000)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Quest Pistols',
-		song : "Я устал"
+		song : "Я устал (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Бумбокс',
-		song : "Eva"
+		song : "Eva (2008)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискотека Авария',
-		song : "Если хочешь остаться"
+		song : "Если хочешь остаться (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискотека Авария',
-		song : "Модный танец Арам Зам Зам"
+		song : "Модный танец Арам Зам Зам (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Звери',
-		song : "Капканы"
+		song : "Капканы (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Отпетые мошенники',
-		song : "Моя звезда (ft Сливки)"
+		song : "Моя звезда (ft Сливки) (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Уматурман',
-		song : "Прасковья"
+		song : "Прасковья (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Уматурман',
-		song : "Дождь"
+		song : "Дождь (2008)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Уматурман',
-		song : "Ночной дозор"
+		song : "Ночной дозор (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Звери',
-		song : "Брюнетки и блондинки"
+		song : "Брюнетки и блондинки (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Чай вдвоем',
-		song : "Ласковая моя"
+		song : "Ласковая моя (2001)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Бутырка',
-		song : "Запахло весной"
+		song : "Запахло весной (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Бутырка',
-		song : "Аттестат"
+		song : "Аттестат (2005)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Игра слов',
-		song : "Алина Кабаева"
+		song : "Алина Кабаева (2005)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'БиС',
-		song : "Кораблики"
+		song : "Кораблики (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : "Пятница",
-		song : "Солдат"
+		song : "Солдат (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : "5ivesta family",
-		song : "Я буду (23-45)"
+		song : "Я буду (23-45) (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -1585,6 +1587,21 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_8,
 		group : 'Centr',
 		song : "Качели (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : '25-17',
+		song : "Место под солнцем (2009)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : '25-17',
+		song : "Никто не сможет меня остановить (2009)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : '25-17',
+		song : "Я никогда не видел моря (2009)"
 	}
 ];
 
