@@ -1012,8 +1012,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Lumen',
-		song : "Сид и Нэнси",
-		year : 2002
+		song : "Сид и Нэнси (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1602,6 +1601,16 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_8,
 		group : '25-17',
 		song : "Я никогда не видел моря (2009)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Green Grey',
+		song : "MF (2000)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Green Grey',
+		song : "Большие облака (2002)"
 	}
 ];
 
