@@ -1611,6 +1611,31 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Green Grey',
 		song : "Большие облака (2002)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Сегодняночью',
+		song : 'Герда, икай (2002)'
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Свинцовый Туман',
+		song : 'Я Знаю... (2001)'
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Сети',
+		song : 'Smile (2002)'
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Полюса',
+		song : 'Само собой (2005)'
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : '1,5 кг Отличного Пюре',
+		song : 'Август-юг (2006)'
 	}
 ];
 
