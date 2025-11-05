@@ -354,12 +354,12 @@ const ru_2000_gr_icon = [
 	'rap'
 ];
 
-const RU_2000_GR_PACK_1 = 6;
 const RU_2000_GR_PACK_5 = 1;
 const RU_2000_GR_PACK_2 = 2;
 const RU_2000_GR_PACK_3 = 3;
 const RU_2000_GR_PACK_6 = 4;
 const RU_2000_GR_PACK_4 = 5;
+const RU_2000_GR_PACK_1 = 6;
 const RU_2000_GR_PACK_7 = 7;
 const RU_2000_GR_PACK_8 = 8;
 
@@ -368,37 +368,44 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Hi-Fi',
-		song : "А мы любили (2002)"
+		song : "А мы любили (2002)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Hi-Fi',
-		song : "Седьмой лепесток (2003)"
+		song : "Седьмой лепесток (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Отпетые мошенники',
-		song : "Граница (ft Леонид Агутин) (2003)"
+		song : "Граница (ft Леонид Агутин) (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискотека Авария',
-		song : "Малинки (ft Жанна Фриске) (2006)"
+		song : "Малинки (ft Жанна Фриске) (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Бумбокс',
-		song : "Вахтерам (2006)"
+		song : "Вахтерам (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Иванушки International',
-		song : "Реви (2000)"
+		song : "Реви (2000)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Иванушки International',
-		song : "Золотые облака (2002)"
+		song : "Золотые облака (2002)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
@@ -409,7 +416,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Чай вдвоем',
-		song : "А ты все ждешь (2004)"
+		song : "А ты все ждешь (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -417,19 +425,21 @@ let ru_2000_gr = [
 		song : "Щемит в душе тоска (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Quest Pistols',
 		song : "Белая стрекоза любви (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Корни',
-		song : "Вика (2004)"
+		song : "Вика (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Корни',
-		song : "Ты узнаешь её (2003)"
+		song : "Ты узнаешь её (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -443,112 +453,125 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Градусы',
 		song : "Режиссер (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Корни',
-		song : "25 этаж (2005)"
+		song : "25 этаж (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Hi-Fi',
-		song : "Глупые люди (2000)"
+		song : "Глупые люди (2000)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Quest Pistols',
 		song : "Я устал (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Бумбокс',
-		song : "Eva (2008)"
+		song : "Eva (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискотека Авария',
-		song : "Если хочешь остаться (2006)"
+		song : "Если хочешь остаться (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискотека Авария',
-		song : "Модный танец Арам Зам Зам (2009)"
+		song : "Модный танец Арам Зам Зам (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Звери',
-		song : "Капканы (2003)"
+		song : "Капканы (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Отпетые мошенники',
-		song : "Моя звезда (ft Сливки) (2003)"
+		song : "Моя звезда (ft Сливки) (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Уматурман',
-		song : "Прасковья (2004)"
+		song : "Прасковья (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Уматурман',
-		song : "Дождь (2008)"
+		song : "Дождь (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Уматурман',
-		song : "Ночной дозор (2004)"
+		song : "Ночной дозор (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Звери',
-		song : "Брюнетки и блондинки (2007)"
+		song : "Брюнетки и блондинки (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Чай вдвоем',
-		song : "Ласковая моя (2001)"
+		song : "Ласковая моя (2001)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Бутырка',
 		song : "Запахло весной (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Бутырка',
 		song : "Аттестат (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Игра слов',
 		song : "Алина Кабаева (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'БиС',
 		song : "Кораблики (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : "Пятница",
-		song : "Солдат (2003)"
+		song : "Солдат (2003)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_3,
 		group : "5ivesta family",
 		song : "Я буду (23-45) (2009)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : "Revoльvers",
 		song : "Ты у меня одна"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : "Revoльvers",
 		song : "Целуешь меня"
 	},
@@ -558,17 +581,18 @@ let ru_2000_gr = [
 		song : "Ревность (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : "Т9",
 		song : "Ода нашей любви"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : "Бумер",
-		song : "Не плачь"
+		song : "Не плачь",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : '140 ударов в минуту',
 		song : 'Не сходи с ума'
 	},
@@ -581,12 +605,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Блестящие',
-		song : "За четыре моря"
+		song : "За четыре моря",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Фабрика',
-		song : "Не виноватая я"
+		song : "Не виноватая я",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -616,17 +642,20 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Краски',
-		song : "Старший брат"
+		song : "Старший брат",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Краски',
-		song : "Оранжевое солнце"
+		song : "Оранжевое солнце",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Краски',
-		song : "Мне мальчик твой не нужен"
+		song : "Мне мальчик твой не нужен",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -661,167 +690,187 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Фабрика',
-		song : "Рыбка"
+		song : "Рыбка",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Пропаганда',
-		song : "Ай-я"
+		song : "Ай-я",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Пропаганда',
-		song : "Супер детка"
+		song : "Супер детка",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Фабрика',
-		song : "Зажигают огоньки"
+		song : "Зажигают огоньки",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Блестящие',
-		song : "Пальмы парами"
+		song : "Пальмы парами",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Тату',
-		song : "Нас не догонят"
+		song : "Нас не догонят",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Тату',
-		song : "Я сошла с ума"
+		song : "Я сошла с ума",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Любовные Истории',
 		song : "Школа"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Подиум',
 		song : "Танцуй, пока молодая"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Тотал',
 		song : "Бьет по глазам"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Тутси',
-		song : "Самый-самый"
+		song : "Самый-самый",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Город 312',
 		song : "Останусь"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Город 312',
 		song : "Вне зоны доступа"
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Тату',
-		song : "All about us"
+		song : "All about us",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Сливки',
 		song : "Самая лучшая (ft Анжелика Варум)"
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Сливки',
 		song : "Иногда"
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Сливки',
 		song : "Летели недели"
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Ранетки',
 		song : "Ангелы"
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Ранетки',
 		song : "Это все о ней"
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Гости из будущего',
-		song : "Грустные сказки"
+		song : "Грустные сказки",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Гости из будущего',
-		song : "Метко"
+		song : "Метко",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Гости из будущего',
-		song : "Почему ты"
+		song : "Почему ты",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Чили',
-		song : "Лето"
+		song : "Лето",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
 		group : 'Чили',
-		song : "Сердце"
+		song : "Сердце",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Инфинити',
 		song : "Слезы вода"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "БандЭрос",
-		song : "Про красивую жизнь"
+		song : "Про красивую жизнь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "БандЭрос",
-		song : "Манхэттен"
+		song : "Манхэттен",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "БандЭрос",
-		song : "Полосы"
+		song : "Полосы",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : "A’Studio",
 		song : "S.O.S."
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : "A’Studio",
 		song : "Ещё люблю"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "Потап и Настя",
-		song : "Непара"
+		song : "Непара",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "Потап и Настя",
-		song : "Почему молчишь"
+		song : "Почему молчишь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "Потап и Настя",
-		song : "Новый год"
+		song : "Новый год",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -880,14 +929,12 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Кукрыниксы',
-		song : "По раскрашенной душе",
-		year : 2002
+		song : "По раскрашенной душе (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Ляпис Трубецкой',
-		song : "Сочи",
-		year : 2001
+		song : "Сочи (2001)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -928,8 +975,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Пилот',
-		song : "Тюрьма",
-		year : 2001
+		song : "Тюрьма (2001)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -939,8 +985,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Наив',
-		song : "Суперзвезда",
-		year : 2000
+		song : "Суперзвезда (2000)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -973,8 +1018,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Маша и медведи',
-		song : "Земля",
-		year : 2000
+		song : "Земля (2000)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1000,14 +1044,12 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : '7Б',
-		song : "Молодые ветра",
-		year : 2001
+		song : "Молодые ветра (2001)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Animal ДжаZ',
-		song : "Три полоски",
-		year : 2006
+		song : "Три полоски (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1022,8 +1064,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Слот',
-		song : "2 войны",
-		year : 2006
+		song : "2 войны (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1113,46 +1154,47 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Ляпис Трубецкой',
-		song : "Капитал",
-		year : 2007
+		song : "Капитал (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Монокини',
 		song : "Дотянуться до солнца"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Монокини',
 		song : "Сидим на облаках"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Монокини',
 		song : "До встречи на звезде"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Русский размер',
-		song : 'Льдами'
+		song : 'Льдами',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Русский размер',
-		song : '!Слушай'
+		song : '!Слушай',
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Непара',
 		song : 'Другая причина'
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Непара',
 		song : 'Плачь и смотри'
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Непара',
 		song : 'Бог тебя выдумал'
 	},
@@ -1167,170 +1209,170 @@ let ru_2000_gr = [
 		song : "Горячее время (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Челси',
 		song : "Самая любимая"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Челси',
 		song : "Почему"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Токио',
 		song : "Мы будем вместе всегда"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Токио',
 		song : "Кто я без тебя"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Токио',
 		song : "Когда ты плачешь"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Инфинити',
 		song : "Где ты"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Инфинити',
 		song : "Я не боюсь"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Тутси',
 		song : "Чашка капучино"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Тутси',
 		song : "Сама по себе"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Амега',
 		song : 'Десант'
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Амега',
 		song : 'Я летая пою'
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Амега',
 		song : 'Убегаю'
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Lumen',
-		song : 'Кофе',
-		year : 2003
+		song : 'Кофе (2003)'
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Ногу свело',
-		song : 'Наши юные смешные голоса',
-		year : 2002
+		song : 'Наши юные смешные голоса (2002)'
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Отпетые мошенники',
-		song : 'Насосы'
+		song : 'Насосы',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Звери',
-		song : 'Дожди-пистолеты'
+		song : 'Дожди-пистолеты',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Виагра',
-		song : "Перемирие"
+		song : "Перемирие",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Виагра',
-		song : "Биология"
+		song : "Биология",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Виагра',
-		song : "Стоп стоп стоп"
+		song : "Стоп стоп стоп",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Турбомода',
-		song : "Школа"
+		song : "Школа",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'БиС',
 		song : "Твой или ничей"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'БиС',
 		song : "Катя, возьми телефон"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Чай вдвоем',
-		song : "Желанная",
-		year : 2003
+		song : "Желанная (2003)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Турбомода',
-		song : 'Каникулы',
-		year : 2007
+		song : 'Каникулы (2007)',
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Ассорти',
-		song : 'Красивая любовь',
-		year : 2009
+		song : 'Красивая любовь (2009)'
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Ассорти',
-		song : 'Зажги моё тело',
-		year : 2009
+		song : 'Зажги моё тело (2009)'
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Турбомода',
-		song : 'Хитрое солнышко',
-		year : 2009
+		song : 'Хитрое солнышко (2009)',
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Любовные Истории',
-		song : 'Путь домой',
-		year : 2003
+		song : 'Путь домой (2003)'
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Рок-Острова',
-		song : "Не любить невозможно",
-		year : 2008
+		song : "Не любить невозможно (2008)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Рефлекс',
-		song : "Танцы",
-		year : 2005
+		song : "Танцы (2005)"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : 'Катя Чехова',
 		song : "Я — робот",
-		year : 2005
+		year : 2005,
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -1338,10 +1380,9 @@ let ru_2000_gr = [
 		song : "Дежавю (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : "A’Studio",
-		song : "Бегу к тебе",
-		year : 2007
+		song : "Бегу к тебе (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1428,12 +1469,12 @@ let ru_2000_gr = [
 		year : 2002
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Планка',
 		song : "На грани болевого порога (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_6,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Планка',
 		song : "Забыла, не помню (2002)"
 	},
@@ -1513,32 +1554,32 @@ let ru_2000_gr = [
 		song : "Доспехи Бога (2009)"
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Дискомафия',
 		song : 'На соседней улице (2005)'
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Дискомафия',
 		song : 'Летняя пора (2001)'
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_5,
 		group : 'Дискомафия',
 		song : 'Море по колено (2003)'
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : "Пара Нормальных",
 		song : "Не улетай"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : "Пара Нормальных",
 		song : "Вставай"
 	},
 	{
-		pack : RU_2000_GR_PACK_4,
+		pack : RU_2000_GR_PACK_3,
 		group : "Пара Нормальных",
 		song : "По улицам Москвы"
 	},
@@ -1656,32 +1697,20 @@ let music = [
 		type: 'gr',
 		packs: [
 				{
-					arr: ru_2000_gr_2,
-					name: 'RU 2000s Groups: Easy',
-				},
-				{
-					arr: ru_2000_gr_3,
-					name: 'RU 2000s Groups: Medium',
-				},
-				{
-					arr: ru_2000_gr_4,
-					name: 'RU 2000s Groups: Pop Women',
-				},
-				{
-					arr: ru_2000_gr_5,
-					name: 'RU 2000s Groups: Pop Women Easy',
-				},
-				{
-					arr: ru_2000_gr_6,
-					name: 'RU 2000s Groups: Pop Women Medium',
-				},
-				{
 					arr: ru_2000_gr_1,
 					name: 'RU 2000s Groups: Rock',
 				},
 				{
 					arr: ru_2000_gr_7,
-					name: 'RU 2000s Groups: Hard Rock',
+					name: 'RU 2000s Groups: Emo & Gothic Rock',
+				},
+				{
+					arr: ru_2000_gr_2,
+					name: 'RU 2000s Groups: Boy Bands',
+				},
+				{
+					arr: ru_2000_gr_4,
+					name: 'RU 2000s Groups: Girl Bands',
 				},
 				{
 					arr: ru_2000_gr_8,
