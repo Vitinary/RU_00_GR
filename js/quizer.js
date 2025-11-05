@@ -1682,6 +1682,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_5,
 		group : "KREC",
 		song : "Нежность (2004)"
+	},
+	{
+		pack : RU_2000_GR_PACK_8,
+		group : "Легальный Бизне$$",
+		song : "Мелодия души (2000)"
 	}
 ];
 
