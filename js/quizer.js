@@ -583,7 +583,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : "Т9",
-		song : "Ода нашей любви"
+		song : "Ода нашей любви (2008)"
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -1677,6 +1677,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : '1,5 кг Отличного Пюре',
 		song : 'Август-юг (2006)'
+	},
+	{
+		pack : RU_2000_GR_PACK_5,
+		group : "KREC",
+		song : "Нежность (2004)"
 	}
 ];
 
@@ -1706,11 +1711,11 @@ let music = [
 				},
 				{
 					arr: ru_2000_gr_2,
-					name: 'RU 2000s Groups: Boy Bands',
+					name: 'RU 2000s Groups: Boys Bands',
 				},
 				{
 					arr: ru_2000_gr_4,
-					name: 'RU 2000s Groups: Girl Bands',
+					name: 'RU 2000s Groups: Girls Bands',
 				},
 				{
 					arr: ru_2000_gr_8,
