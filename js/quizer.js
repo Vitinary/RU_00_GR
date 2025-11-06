@@ -568,12 +568,12 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : "Revoльvers",
-		song : "Ты у меня одна"
+		song : "Ты у меня одна (2000)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : "Revoльvers",
-		song : "Целуешь меня"
+		song : "Целуешь меня (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -581,7 +581,7 @@ let ru_2000_gr = [
 		song : "Ревность (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_8,
 		group : "Т9",
 		song : "Ода нашей любви (2008)"
 	},
@@ -1714,6 +1714,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_3,
 		group : 'Serebro',
 		song : "Мы взлетаем (2009)"
+	},
+	{
+		pack : RU_2000_GR_PACK_5,
+		group : 'Quest Pistols',
+		song : "Томатный сок (2007)"
 	}
 ];
 
