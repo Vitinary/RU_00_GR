@@ -1557,7 +1557,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискомафия',
-		song : 'На соседней улице (2005)'
+		song : 'На соседней улице (2005)',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
@@ -1680,7 +1681,7 @@ let ru_2000_gr = [
 		song : 'Август-юг (2006)'
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_8,
 		group : "KREC",
 		song : "Нежность (2004)"
 	},
