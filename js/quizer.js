@@ -617,17 +617,18 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Serebro',
-		song : "Дыши (ft Баста)"
+		song : "Дыши (ft Баста) (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Serebro',
-		song : "Опиум"
+		song : "Опиум",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Serebro',
-		song : "Сладко"
+		song : "Сладко (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1707,6 +1708,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_5,
 		group : "ЕВРО",
 		song : "Радио DJ (2002)"
+	},
+	{
+		pack : RU_2000_GR_PACK_3,
+		group : 'Serebro',
+		song : "Мы взлетаем (2009)"
 	}
 ];
 
