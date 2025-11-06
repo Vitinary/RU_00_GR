@@ -617,7 +617,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Serebro',
-		song : "Дыши (ft Баста) (2007)"
+		song : "Дыши (ft Баста) (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1719,6 +1720,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_5,
 		group : 'Quest Pistols',
 		song : "Томатный сок (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_3,
+		group : 'Serebro',
+		song : "Скажи, не молчи (2008)"
 	}
 ];
 
