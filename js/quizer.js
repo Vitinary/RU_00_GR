@@ -1697,6 +1697,16 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_3,
 		group : "КуБа",
 		song : "Маленький мальчик (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_5,
+		group : "ЕВРО",
+		song : "Где ты? (2004)"
+	},
+	{
+		pack : RU_2000_GR_PACK_5,
+		group : "ЕВРО",
+		song : "Радио DJ (2002)"
 	}
 ];
 
