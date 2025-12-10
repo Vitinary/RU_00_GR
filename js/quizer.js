@@ -1664,7 +1664,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Свинцовый Туман',
-		song : 'Я Знаю... (2001)'
+		song : 'Я Знаю... (1997)',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
