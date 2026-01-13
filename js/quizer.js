@@ -351,7 +351,8 @@ const ru_2000_gr_icon = [
 	'ru_pop_f_medium',
 	'ru_rock',
 	'ru_rock_2',
-	'rap'
+	'rap',
+	'pop'
 ];
 
 const RU_2000_GR_PACK_5 = 1;
@@ -362,6 +363,7 @@ const RU_2000_GR_PACK_4 = 5;
 const RU_2000_GR_PACK_1 = 6;
 const RU_2000_GR_PACK_7 = 7;
 const RU_2000_GR_PACK_8 = 8;
+const RU_2000_GR_PACK_9 = 9;
 
 
 let ru_2000_gr = [
@@ -442,7 +444,7 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_2,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Дыши',
 		song : "Взгляни на небо (2006)"
 	},
@@ -545,7 +547,7 @@ let ru_2000_gr = [
 		song : "Аттестат (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Игра слов',
 		song : "Алина Кабаева (2005)"
 	},
@@ -581,7 +583,7 @@ let ru_2000_gr = [
 		song : "Ревность (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_8,
+		pack : RU_2000_GR_PACK_9,
 		group : "Т9",
 		song : "Ода нашей любви (2008)"
 	},
@@ -662,7 +664,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Винтаж',
-		song : "Роман"
+		song : "Роман",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -737,12 +740,12 @@ let ru_2000_gr = [
 		song : "Школа"
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Подиум',
 		song : "Танцуй, пока молодая"
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Тотал',
 		song : "Бьет по глазам"
 	},
@@ -1564,10 +1567,11 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Дискомафия',
-		song : 'Летняя пора (2001)'
+		song : 'Летняя пора (2001)',
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Дискомафия',
 		song : 'Море по колено (2003)'
 	},
@@ -1668,7 +1672,7 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Сети',
 		song : 'Smile (2002)'
 	},
@@ -1683,7 +1687,7 @@ let ru_2000_gr = [
 		song : 'Август-юг (2006)'
 	},
 	{
-		pack : RU_2000_GR_PACK_8,
+		pack : RU_2000_GR_PACK_9,
 		group : "KREC",
 		song : "Нежность (2004)"
 	},
@@ -1743,17 +1747,18 @@ let ru_2000_gr = [
 		song : "Маленькая Штучка (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Горячие головы',
 		song : "Бананы Лопала (2000)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Горячие головы',
-		song : "Выходи за меня замуж (2003)"
+		song : "Выходи за меня замуж (2003)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Орбита',
 		song : "Магистраль (2001)"
 	},
@@ -1763,14 +1768,15 @@ let ru_2000_gr = [
 		song : "Прости (2009)"
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Горячий шоколад',
 		song : "Береги (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Горячий шоколад',
-		song : "Неба Мало (2009)"
+		song : "Неба Мало (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1791,6 +1797,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_3,
 		group : 'Воровайки',
 		song : "Хоп, Мусорок (2001)"
+	},
+	{
+		pack : RU_2000_GR_PACK_9,
+		group : 'Патология',
+		song : "Протест (2003)"
 	}
 ];
 
@@ -1802,6 +1813,7 @@ let ru_2000_gr_5 =	ru_2000_gr.filter(item => item.pack == 4);
 let ru_2000_gr_6 =	ru_2000_gr.filter(item => item.pack == 5);
 let ru_2000_gr_7 =	ru_2000_gr.filter(item => item.pack == 7);
 let ru_2000_gr_8 =	ru_2000_gr.filter(item => item.pack == 8);
+let ru_2000_gr_9 =	ru_2000_gr.filter(item => item.pack == 9);
 
 let music = [
 	{
@@ -1829,6 +1841,10 @@ let music = [
 				{
 					arr: ru_2000_gr_8,
 					name: 'RU 2000s Groups: Rap',
+				},
+				{
+					arr: ru_2000_gr_9,
+					name: 'RU 2000s Groups: One Hit Wonders',
 				}
 			]
 	}
