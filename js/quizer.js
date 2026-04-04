@@ -1838,14 +1838,6 @@ let music = [
 		type: 'gr',
 		packs: [
 				{
-					arr: ru_2000_gr_1,
-					name: 'RU 2000s Groups: Rock',
-				},
-				{
-					arr: ru_2000_gr_7,
-					name: 'RU 2000s Groups: Emo & Gothic Rock',
-				},
-				{
 					arr: ru_2000_gr_2,
 					name: 'RU 2000s Groups: Boys Bands',
 				},
@@ -1856,6 +1848,14 @@ let music = [
 				{
 					arr: ru_2000_gr_8,
 					name: 'RU 2000s Groups: Rap',
+				},
+				{
+					arr: ru_2000_gr_1,
+					name: 'RU 2000s Groups: Rock',
+				},
+				{
+					arr: ru_2000_gr_7,
+					name: 'RU 2000s Groups: Emo & Gothic Rock',
 				},
 				{
 					arr: ru_2000_gr_9,
