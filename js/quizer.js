@@ -429,7 +429,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Quest Pistols',
-		song : "Белая стрекоза любви (2009)"
+		song : "Белая стрекоза любви (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -457,7 +458,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Градусы',
-		song : "Режиссер (2009)"
+		song : "Режиссер (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -474,7 +476,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Quest Pistols',
-		song : "Я устал (2007)"
+		song : "Я устал (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -537,12 +540,12 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Бутырка',
 		song : "Запахло весной (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Бутырка',
 		song : "Аттестат (2005)"
 	},
@@ -554,7 +557,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'БиС',
-		song : "Кораблики (2009)"
+		song : "Кораблики (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -570,12 +574,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : "Revoльvers",
-		song : "Ты у меня одна (2000)"
+		song : "Ты у меня одна (2000)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : "Revoльvers",
-		song : "Целуешь меня (2007)"
+		song : "Целуешь меня (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -596,7 +602,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : '140 ударов в минуту',
-		song : 'Не сходи с ума'
+		song : 'Не сходи с ума',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -670,12 +677,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Винтаж',
-		song : "Плохая девочка"
+		song : "Плохая девочка",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Винтаж',
-		song : "Ева"
+		song : "Ева",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1216,25 +1225,27 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Челси',
-		song : "Самая любимая"
+		song : "Самая любимая",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Челси',
-		song : "Почему"
+		song : "Почему",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Токио',
 		song : "Мы будем вместе всегда"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Токио',
 		song : "Кто я без тебя"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Токио',
 		song : "Когда ты плачешь"
 	},
@@ -1261,17 +1272,20 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Амега',
-		song : 'Десант'
+		song : 'Десант',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Амега',
-		song : 'Я летая пою'
+		song : 'Я летая пою',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Амега',
-		song : 'Убегаю'
+		song : 'Убегаю',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1322,12 +1336,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'БиС',
-		song : "Твой или ничей"
+		song : "Твой или ничей",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'БиС',
-		song : "Катя, возьми телефон"
+		song : "Катя, возьми телефон",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -1365,7 +1381,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Рок-Острова',
-		song : "Не любить невозможно (2008)"
+		song : "Не любить невозможно (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1593,7 +1610,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Блестящие',
-		song : "Агент 007"
+		song : "Агент 007",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -1707,12 +1725,12 @@ let ru_2000_gr = [
 		song : "Маленький мальчик (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : "ЕВРО",
 		song : "Где ты? (2004)"
 	},
 	{
-		pack : RU_2000_GR_PACK_5,
+		pack : RU_2000_GR_PACK_3,
 		group : "ЕВРО",
 		song : "Радио DJ (2002)"
 	},
@@ -1724,7 +1742,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_5,
 		group : 'Quest Pistols',
-		song : "Томатный сок (2007)"
+		song : "Томатный сок (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1838,12 +1857,8 @@ let music = [
 		type: 'gr',
 		packs: [
 				{
-					arr: ru_2000_gr_2,
-					name: 'RU 2000s Groups: Boys Bands',
-				},
-				{
 					arr: ru_2000_gr_4,
-					name: 'RU 2000s Groups: Girls Bands',
+					name: 'RU 2000s Groups: Pop',
 				},
 				{
 					arr: ru_2000_gr_8,
