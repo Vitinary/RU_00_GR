@@ -689,17 +689,20 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Лицей',
-		song : "Она не верит больше в любовь"
+		song : "Она не верит больше в любовь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Лицей',
-		song : "Падает дождь"
+		song : "Падает дождь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Лицей',
-		song : "Планета Пять"
+		song : "Планета Пять",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -767,12 +770,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Город 312',
-		song : "Останусь"
+		song : "Останусь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Город 312',
-		song : "Вне зоны доступа"
+		song : "Вне зоны доступа",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
@@ -1173,17 +1178,20 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Монокини',
-		song : "Дотянуться до солнца"
+		song : "Дотянуться до солнца",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Монокини',
-		song : "Сидим на облаках"
+		song : "Сидим на облаках",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Монокини',
-		song : "До встречи на звезде"
+		song : "До встречи на звезде",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -1200,17 +1208,20 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Непара',
-		song : 'Другая причина'
+		song : 'Другая причина',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Непара',
-		song : 'Плачь и смотри'
+		song : 'Плачь и смотри',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Непара',
-		song : 'Бог тебя выдумал'
+		song : 'Бог тебя выдумал',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
