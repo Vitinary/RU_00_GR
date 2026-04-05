@@ -643,12 +643,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Пропаганда',
-		song : "Пять минут на любовь"
+		song : "Пять минут на любовь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Рефлекс',
-		song : "Non-stop"
+		song : "Non-stop",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -788,17 +790,20 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Сливки',
-		song : "Самая лучшая (ft Анжелика Варум)"
+		song : "Самая лучшая (ft Анжелика Варум)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Сливки',
-		song : "Иногда"
+		song : "Иногда",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Сливки',
-		song : "Летели недели"
+		song : "Летели недели",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1226,7 +1231,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Рефлекс',
-		song : "Первый раз"
+		song : "Первый раз",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_8,
@@ -1398,7 +1404,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Рефлекс',
-		song : "Танцы (2005)"
+		song : "Танцы (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
