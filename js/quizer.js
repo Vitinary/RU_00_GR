@@ -1068,12 +1068,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : '7Б',
-		song : "Молодые ветра (2001)"
+		song : "Молодые ветра (2001)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Animal ДжаZ',
-		song : "Три полоски (2006)"
+		song : "Три полоски (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1854,6 +1856,21 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_9,
 		group : 'Frequenz',
 		song : "Синие розы (2000)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Animal ДжаZ',
+		song : "Ангел (2004)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Animal ДжаZ',
+		song : "Можешь лететь (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Animal ДжаZ',
+		song : "Ответ нет (2007)"
 	}
 ];
 
