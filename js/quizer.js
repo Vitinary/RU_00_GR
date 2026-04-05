@@ -942,7 +942,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Смысловые Галлюцинации',
-		song : "Вечно молодой"
+		song : "Вечно молодой",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1004,7 +1005,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Тараканы',
-		song : "Я смотрю на них"
+		song : "Я смотрю на них (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1042,7 +1043,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Маша и медведи',
-		song : "Земля (2000)"
+		song : "Земля (2000)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1058,7 +1060,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Ундервуд',
-		song : "Гагарин, я вас любила"
+		song : "Гагарин, я вас любила",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1148,12 +1151,14 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Смысловые Галлюцинации',
-		song : "Зачем топтать мою любовь"
+		song : "Зачем топтать мою любовь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Смысловые Галлюцинации',
-		song : "Полюса"
+		song : "Полюса",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1314,7 +1319,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Ногу свело',
-		song : 'Наши юные смешные голоса (2002)'
+		song : 'Наши юные смешные голоса (2002)',
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
@@ -1871,6 +1877,41 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Animal ДжаZ',
 		song : "Ответ нет (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Ундервуд',
+		song : "Очень хочется в Советский Союз (2008)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Ундервуд',
+		song : "Это судьба (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Ундервуд',
+		song : "Понты-понты (2003)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Тараканы',
+		song : "Тишина - это смерть (2004)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Тараканы',
+		song : "Кто-то из нас двоих (2006)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Наив',
+		song : "20 Лет Одиночества (2009)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Наив',
+		song : "Моё сердце (Не остановилось) (2006)"
 	}
 ];
 
