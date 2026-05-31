@@ -1917,6 +1917,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Юта',
 		song : "Жили-были (2004)"
+	},
+	{
+		pack : RU_2000_GR_PACK_9,
+		group : 'NikitA',
+		song : "Верёвки (2009)"
 	}
 ];
 
