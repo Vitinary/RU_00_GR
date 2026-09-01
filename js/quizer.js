@@ -567,9 +567,9 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : "5ivesta family",
-		song : "Я буду (23-45) (2009)"
+		song : "Я буду (ft 23-45) (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
@@ -954,7 +954,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Кукрыниксы',
-		song : "По раскрашенной душе (2002)"
+		song : "По раскрашенной душе (2002)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1027,12 +1028,13 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Ночные снайперы',
-		song : "Катастрофически"
+		song : "Катастрофически",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Сурганова и Оркестр',
-		song : "Мураками"
+		song : "Мураками (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1086,7 +1088,7 @@ let ru_2000_gr = [
 		song : "Сид и Нэнси (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Мёртвые дельфины',
 		song : "На моей луне"
 	},
@@ -1096,9 +1098,9 @@ let ru_2000_gr = [
 		song : "2 войны (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Элизиум',
-		song : "Острова"
+		song : "Острова (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1490,13 +1492,15 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Кукрыниксы',
 		song : "Творец",
-		year : 2002
+		year : 2002,
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Кукрыниксы',
 		song : "Тайна",
-		year : 2002
+		year : 2002,
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_7,
@@ -1705,7 +1709,7 @@ let ru_2000_gr = [
 		song : "Большие облака (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Сегодняночью',
 		song : 'Герда, икай (2002)'
 	},
@@ -1721,12 +1725,12 @@ let ru_2000_gr = [
 		song : 'Smile (2002)'
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Полюса',
 		song : 'Само собой (2005)'
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : '1,5 кг Отличного Пюре',
 		song : 'Август-юг (2006)'
 	},
@@ -1736,7 +1740,7 @@ let ru_2000_gr = [
 		song : "Нежность (2004)"
 	},
 	{
-		pack : RU_2000_GR_PACK_8,
+		pack : RU_2000_GR_PACK_9,
 		group : "Легальный Бизне$$",
 		song : "Мелодия души (2000)"
 	},
@@ -1808,7 +1812,7 @@ let ru_2000_gr = [
 		song : "Магистраль (2001)"
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Вельвет',
 		song : "Прости (2009)"
 	},
@@ -1824,7 +1828,7 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Пающие трусы',
 		song : "Вафли (2009)"
 	},
