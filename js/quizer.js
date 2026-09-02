@@ -1926,6 +1926,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_9,
 		group : 'NikitA',
 		song : "Верёвки (2009)"
+	},
+	{
+		pack : RU_2000_GR_PACK_9,
+		group : 'Мобильные Блондинки',
+		song : "Пюшевый мишка (2009)"
 	}
 ];
 
