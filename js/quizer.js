@@ -754,9 +754,9 @@ let ru_2000_gr = [
 		song : "Школа"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Подиум',
-		song : "Танцуй, пока молодая"
+		song : "Танцуй, пока молодая (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_9,
@@ -1936,6 +1936,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_9,
 		group : 'Face2Face',
 		song : "Кошка (2002)"
+	},
+	{
+		pack : RU_2000_GR_PACK_3,
+		group : 'Подиум',
+		song : "Прости я улетаю (2007)"
 	}
 ];
 
