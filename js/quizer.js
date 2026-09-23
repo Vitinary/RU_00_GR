@@ -751,7 +751,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Любовные Истории',
-		song : "Школа"
+		song : "Школа (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -761,7 +761,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_9,
 		group : 'Тотал',
-		song : "Бьет по глазам"
+		song : "Бьет по глазам (2001)"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
@@ -808,12 +808,12 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Ранетки',
-		song : "Ангелы"
+		song : "Ангелы (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Ранетки',
-		song : "Это все о ней"
+		song : "Это все о ней (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_6,
@@ -848,7 +848,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Инфинити',
-		song : "Слезы вода"
+		song : "Слезы вода (2009)"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
@@ -871,12 +871,12 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : "A’Studio",
-		song : "S.O.S."
+		song : "S.O.S. (2001)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : "A’Studio",
-		song : "Ещё люблю"
+		song : "Ещё люблю (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
@@ -1068,7 +1068,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Мультфильмы',
-		song : "Яды"
+		song : "Яды (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1090,7 +1090,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_9,
 		group : 'Мёртвые дельфины',
-		song : "На моей луне"
+		song : "На моей луне (2003)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1165,12 +1165,12 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Мультфильмы',
-		song : "Магнитофон"
+		song : "Магнитофон (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Мультфильмы',
-		song : "Пистолет"
+		song : "Пистолет (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
@@ -1263,37 +1263,37 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Токио',
-		song : "Мы будем вместе всегда"
+		song : "Мы будем вместе всегда (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Токио',
-		song : "Кто я без тебя"
+		song : "Кто я без тебя (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Токио',
-		song : "Когда ты плачешь"
+		song : "Когда ты плачешь (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Инфинити',
-		song : "Где ты"
+		song : "Где ты (2008)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Инфинити',
-		song : "Я не боюсь"
+		song : "Я не боюсь (2008)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Тутси',
-		song : "Чашка капучино"
+		song : "Чашка капучино (2007)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
 		group : 'Тутси',
-		song : "Сама по себе"
+		song : "Сама по себе (2006)"
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
@@ -1941,6 +1941,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_3,
 		group : 'Подиум',
 		song : "Прости я улетаю (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_9,
+		group : 'Год змеи',
+		song : "2000 баксов (2006)"
 	}
 ];
 
