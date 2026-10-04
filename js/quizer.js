@@ -550,7 +550,7 @@ let ru_2000_gr = [
 		song : "Аттестат (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Игра слов',
 		song : "Алина Кабаева (2005)"
 	},
@@ -567,7 +567,7 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_3,
 		group : "5ivesta family",
 		song : "Я буду (ft 23-45) (2009)"
 	},
@@ -759,7 +759,7 @@ let ru_2000_gr = [
 		song : "Танцуй, пока молодая (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Тотал',
 		song : "Бьет по глазам (2001)"
 	},
@@ -1032,7 +1032,7 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Сурганова и Оркестр',
 		song : "Мураками (2003)"
 	},
@@ -1098,7 +1098,7 @@ let ru_2000_gr = [
 		song : "2 войны (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Элизиум',
 		song : "Острова (2002)"
 	},
@@ -1505,20 +1505,17 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Jane Air',
-		song : "Junk (2004)",
-		year : 2004
+		song : "Junk (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Jane Air',
-		song : "Вулканы (2004)",
-		year : 2004
+		song : "Вулканы (2004)"
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Jane Air',
-		song : "Пуля (2002)",
-		year : 2002
+		song : "Пуля (2002)"
 	},
 	{
 		pack : RU_2000_GR_PACK_3,
@@ -1578,32 +1575,38 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Origami',
-		song : "12 секунд (2006)"
+		song : "12 секунд (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Origami',
-		song : "Досчитай до пяти (2006)"
+		song : "Досчитай до пяти (2006)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_1,
+		pack : RU_2000_GR_PACK_9,
 		group : 'Origami',
-		song : "Без лишних слов (2006)"
+		song : "Без лишних слов (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Sakura',
-		song : "Слов нет (2006)"
+		song : "Слов нет (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Sakura',
-		song : "Письмо-исповедь ответа не требует (2007)"
+		song : "Письмо-исповедь ответа не требует (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_1,
 		group : 'Sakura',
-		song : "Доспехи Бога (2009)"
+		song : "Доспехи Бога (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_5,
@@ -1709,7 +1712,7 @@ let ru_2000_gr = [
 		song : "Большие облака (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Сегодняночью',
 		song : 'Герда, икай (2002)'
 	},
@@ -1740,7 +1743,7 @@ let ru_2000_gr = [
 		song : "Нежность (2004)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_8,
 		group : "Легальный Бизне$$",
 		song : "Мелодия души (2000)"
 	},
@@ -1812,12 +1815,12 @@ let ru_2000_gr = [
 		song : "Магистраль (2001)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Вельвет',
 		song : "Прости (2009)"
 	},
 	{
-		pack : RU_2000_GR_PACK_9,
+		pack : RU_2000_GR_PACK_3,
 		group : 'Горячий шоколад',
 		song : "Береги (2009)"
 	},
@@ -1946,6 +1949,36 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_9,
 		group : 'Год змеи',
 		song : "2000 баксов (2006)"
+	},
+	{
+		pack : RU_2000_GR_PACK_9,
+		group : 'Sakura',
+		song : "Возле осени (2003)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Тотал',
+		song : "Уходим на закат (2001)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Znaki',
+		song : "Стрелки (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Znaki',
+		song : "Мама (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Конец Фильма',
+		song : "Весна (2003)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Конец Фильма',
+		song : "Не завидуй! (2003)"
 	}
 ];
 
@@ -1977,10 +2010,6 @@ let music = [
 				{
 					arr: ru_2000_gr_1,
 					name: 'RU 2000s Groups: Rock',
-				},
-				{
-					arr: ru_2000_gr_7,
-					name: 'RU 2000s Groups: Emo & Gothic Rock',
 				},
 				{
 					arr: ru_2000_gr_9,
