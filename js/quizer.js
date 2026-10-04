@@ -1503,21 +1503,21 @@ let ru_2000_gr = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Jane Air',
-		song : "Junk",
+		song : "Junk (2004)",
 		year : 2004
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Jane Air',
-		song : "Вулканы",
+		song : "Вулканы (2004)",
 		year : 2004
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Jane Air',
-		song : "Пуля",
+		song : "Пуля (2002)",
 		year : 2002
 	},
 	{
@@ -1531,77 +1531,77 @@ let ru_2000_gr = [
 		song : "Забыла, не помню (2002)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : '[AMATORY]',
 		song : "Дыши со мной (2008)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : '[AMATORY]',
 		song : "Осколки (2003)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : '[AMATORY]',
 		song : "Слишком поздно (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Stigmata',
 		song : "Лёд (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Stigmata',
 		song : "Сентябрь (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Stigmata',
 		song : "Крылья (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Психея',
 		song : "Навсегда (2005)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Психея',
 		song : "Мишень (2009)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Психея',
 		song : "Лезвием сердца (2004)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Origami',
 		song : "12 секунд (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Origami',
 		song : "Досчитай до пяти (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Origami',
 		song : "Без лишних слов (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Sakura',
 		song : "Слов нет (2006)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Sakura',
 		song : "Письмо-исповедь ответа не требует (2007)"
 	},
 	{
-		pack : RU_2000_GR_PACK_7,
+		pack : RU_2000_GR_PACK_1,
 		group : 'Sakura',
 		song : "Доспехи Бога (2009)"
 	},
