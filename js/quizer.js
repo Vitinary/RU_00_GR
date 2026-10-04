@@ -346,7 +346,7 @@ function load(){
 const ru_2000_gr_icon = [
 	'ru_pop_m_easy',
 	'ru_pop_m_medium',
-	'ru_pop_f',
+	'ru_pop',
 	'ru_pop_f_easy',
 	'ru_pop_f_medium',
 	'ru_rock',
