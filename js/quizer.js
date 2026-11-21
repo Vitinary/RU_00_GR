@@ -1979,6 +1979,21 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Конец Фильма',
 		song : "Не завидуй! (2003)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Tracktor Bowling',
+		song : "Черта (2005)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Tracktor Bowling',
+		song : "Шаги по стеклу (2006)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Tracktor Bowling',
+		song : "Время (2008)"
 	}
 ];
 
