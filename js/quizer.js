@@ -1994,6 +1994,16 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_1,
 		group : 'Tracktor Bowling',
 		song : "Время (2008)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Znaki',
+		song : "Полли (2007)"
+	},
+	{
+		pack : RU_2000_GR_PACK_1,
+		group : 'Дом Кукол',
+		song : "Ходить по небу (2002)"
 	}
 ];
 
